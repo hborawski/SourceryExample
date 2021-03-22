@@ -23,7 +23,7 @@ open class ClassB {
     open var openVar: String = "Open"
 }
 
-class ClassC {
+private class ClassC {
     fileprivate var fileprivateVar: String = "FilePrivate"
     internal var internalVar: String = "Internal"
     private var privateVar: String = "Private"
