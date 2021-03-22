@@ -3,8 +3,32 @@
 
 
 // public class ClassA
+   // fileprivate var fileprivateVar
+   // internal var internalVar
+   // private var privateVar
    // public var publicVar
    // internal var openVar
 // internal class ClassB
+   // fileprivate var fileprivateVar
+   // internal var internalVar
+   // private var privateVar
+   // public var publicVar
+   // internal var openVar
+// internal class ClassC
+   // fileprivate var fileprivateVar
+   // internal var internalVar
+   // private var privateVar
+   // public var publicVar
+   // internal var openVar
+// internal class ClassD
+   // fileprivate var fileprivateVar
+   // internal var internalVar
+   // private var privateVar
+   // public var publicVar
+   // internal var openVar
+// fileprivate class ClassE
+   // fileprivate var fileprivateVar
+   // internal var internalVar
+   // private var privateVar
    // public var publicVar
    // internal var openVar
