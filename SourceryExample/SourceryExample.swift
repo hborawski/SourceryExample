@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class ClassA {
+public class PublicClass {
     fileprivate var fileprivateVar: String = "FilePrivate"
     internal var internalVar: String = "Internal"
     private var privateVar: String = "Private"
@@ -15,7 +15,7 @@ public class ClassA {
     open var openVar: String = "Open"
 }
 
-open class ClassB {
+open class OpenClass {
     fileprivate var fileprivateVar: String = "FilePrivate"
     internal var internalVar: String = "Internal"
     private var privateVar: String = "Private"
@@ -23,7 +23,7 @@ open class ClassB {
     open var openVar: String = "Open"
 }
 
-private class ClassC {
+private class PrivateClass {
     fileprivate var fileprivateVar: String = "FilePrivate"
     internal var internalVar: String = "Internal"
     private var privateVar: String = "Private"
@@ -31,7 +31,7 @@ private class ClassC {
     open var openVar: String = "Open"
 }
 
-internal class ClassD {
+internal class InternalClass {
     fileprivate var fileprivateVar: String = "FilePrivate"
     internal var internalVar: String = "Internal"
     private var privateVar: String = "Private"
@@ -39,7 +39,7 @@ internal class ClassD {
     open var openVar: String = "Open"
 }
 
-fileprivate class ClassE {
+fileprivate class FilePrivateClass {
     fileprivate var fileprivateVar: String = "FilePrivate"
     internal var internalVar: String = "Internal"
     private var privateVar: String = "Private"
