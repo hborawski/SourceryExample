@@ -1,0 +1,6 @@
+{% for type in types.classes %}
+// {{type.accessLevel}} {{type.kind}} {{type.name}}
+   {% for var in type.rawVariables %}
+   // {{var.readAccess}} var {{var.name}}
+   {% endfor %} 
+{% endfor %}

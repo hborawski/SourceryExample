@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05EC096B2298F6F245467781 /* Pods_SourceryExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124A2CF8F21476153AFE659D /* Pods_SourceryExample.framework */; };
 		67A071E02609417D0099D6C5 /* SourceryExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A071DF2609417D0099D6C5 /* SourceryExampleApp.swift */; };
 		67A071E22609417D0099D6C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A071E12609417D0099D6C5 /* ContentView.swift */; };
 		67A071E42609417F0099D6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A071E32609417F0099D6C5 /* Assets.xcassets */; };
 		67A071E72609417F0099D6C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A071E62609417F0099D6C5 /* Preview Assets.xcassets */; };
+		67A071F02609419A0099D6C5 /* SourceryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A071EF2609419A0099D6C5 /* SourceryExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		124A2CF8F21476153AFE659D /* Pods_SourceryExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SourceryExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCC7826304F096DF916895B /* Pods-SourceryExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SourceryExample.release.xcconfig"; path = "Target Support Files/Pods-SourceryExample/Pods-SourceryExample.release.xcconfig"; sourceTree = "<group>"; };
+		4049E105539B9FEADF0C68EE /* Pods-SourceryExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SourceryExample.debug.xcconfig"; path = "Target Support Files/Pods-SourceryExample/Pods-SourceryExample.debug.xcconfig"; sourceTree = "<group>"; };
 		67A071DC2609417D0099D6C5 /* SourceryExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SourceryExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A071DF2609417D0099D6C5 /* SourceryExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceryExampleApp.swift; sourceTree = "<group>"; };
 		67A071E12609417D0099D6C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67A071E32609417F0099D6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67A071E62609417F0099D6C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		67A071E82609417F0099D6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A071EF2609419A0099D6C5 /* SourceryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceryExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05EC096B2298F6F245467781 /* Pods_SourceryExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +45,8 @@
 			children = (
 				67A071DE2609417D0099D6C5 /* SourceryExample */,
 				67A071DD2609417D0099D6C5 /* Products */,
+				F60FA1E83B6FF978B915E235 /* Pods */,
+				68AFAF094CB7C32C42D20984 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +66,7 @@
 				67A071E32609417F0099D6C5 /* Assets.xcassets */,
 				67A071E82609417F0099D6C5 /* Info.plist */,
 				67A071E52609417F0099D6C5 /* Preview Content */,
+				67A071EF2609419A0099D6C5 /* SourceryExample.swift */,
 			);
 			path = SourceryExample;
 			sourceTree = "<group>";
@@ -69,6 +79,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		68AFAF094CB7C32C42D20984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				124A2CF8F21476153AFE659D /* Pods_SourceryExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F60FA1E83B6FF978B915E235 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4049E105539B9FEADF0C68EE /* Pods-SourceryExample.debug.xcconfig */,
+				2CCC7826304F096DF916895B /* Pods-SourceryExample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,6 +104,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67A071EB2609417F0099D6C5 /* Build configuration list for PBXNativeTarget "SourceryExample" */;
 			buildPhases = (
+				2ED2DC2A65A09B34A1797D75 /* [CP] Check Pods Manifest.lock */,
 				67A071D82609417D0099D6C5 /* Sources */,
 				67A071D92609417D0099D6C5 /* Frameworks */,
 				67A071DA2609417D0099D6C5 /* Resources */,
@@ -133,12 +162,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ED2DC2A65A09B34A1797D75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SourceryExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		67A071D82609417D0099D6C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				67A071E22609417D0099D6C5 /* ContentView.swift in Sources */,
+				67A071F02609419A0099D6C5 /* SourceryExample.swift in Sources */,
 				67A071E02609417D0099D6C5 /* SourceryExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +319,7 @@
 		};
 		67A071EC2609417F0099D6C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4049E105539B9FEADF0C68EE /* Pods-SourceryExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -285,6 +341,7 @@
 		};
 		67A071ED2609417F0099D6C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CCC7826304F096DF916895B /* Pods-SourceryExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

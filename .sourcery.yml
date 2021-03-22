@@ -1,0 +1,5 @@
+sources:
+    - SourceryExample
+templates:
+    - SourceryExample
+output: SourceryExample/output.swift
